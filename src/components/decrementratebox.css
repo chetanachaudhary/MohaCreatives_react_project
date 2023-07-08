@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.decrement_rate_box {
+    width: 264px;
+    height: auto;
+    margin-top:8px;
+    background: transparent;
+}
+
+
+.expenditureContainer {
+    width: 264px;
+    height: 136px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
+    margin-top: 16px;
+
+
+
+}
+
+.expenditureTitle {
+    color: #262626;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-left: 24px;
+    padding-top: 24px;
+
+}
+
+.values {
+    color: #262626;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin-top: 10px;
+    margin-left: 24px;
+}
+
+.downRate {
+    color: #727272;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-left: 24px;
+    margin-top: 8px;
+}
+
+.graphExpenditure {
+    position: relative;
+    width: 145px;
+    height: 46px;
+    margin-left: 13px;
+    margin-top: 8px;
+}
+
+.expenditureDetails {
+    display: flex;
+}
+
+.shadowGraph {
+    width: 145px;
+    height: 46px;
+    position: absolute;
+    z-index: 8;
+    margin-left: 13px;
+    margin-top: 8px;
+
+}
+
+.expenditureGraph {
+    display: flex;
+}
+
+.incomeExpenditure {
+    width: 145px;
+    height: 47px;
+    margin-left: 22px;
+    margin-top: 8px;
+}
+.savingExpenditure{
+    width: 145px;
+    height: 47px;
+    margin-left: 14px;
+    margin-top: 8px;
+}
