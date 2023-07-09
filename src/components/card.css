@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.myCard_container {
+    width: 280px;
+    height: 440px;
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
+    margin-top: 24px;
+    margin-left: 1.5rem;
+}
+
+.myCard_details {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px 24px 8px 24px;
+}
+
+.cardTitle {
+    color: #262626;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.card_learnMore {
+    color: #262626;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+.cardAmount {
+    color: #593EF8;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+    margin-left: 24px;
+}
+
+.blueCardsInfo {
+    width: 300px;
+
+}
+
+.cardImage {
+    width: 300px;
+    height: 220px;
+    position: relative;
+
+}
+
+.balanceTitles {
+
+    color: #FFF;
+    font-size: 8.78px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.balance_mycard_details {
+    position: absolute;
+    top: 16rem;
+    margin-left: 41.4px;
+}
+
+.amount_info_MyCard {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10.89px;
+    margin-bottom: 9px;
+}
+
+.pinNumber {
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.5px;
+    margin-bottom: 18px;
+}
+
+.card_Date {
+    color: #FFF;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.cardImage_purple{
+    width: 300px;
+    height: 220px;
+    position: absolute;
+    top:23.5rem;
+}
+.balance_mycard_details_purpleCard{
+    position: absolute;
+    top: 26rem;
+    margin-left: 41.4px;
+}
