@@ -3,3 +3,11 @@
     grid-template-columns: auto auto auto auto auto auto;
     justify-content: start;
 }
+.Static{
+    display:flex;
+    position:absolute;
+    left:17.5rem;
+    top:37rem;
+
+
+}

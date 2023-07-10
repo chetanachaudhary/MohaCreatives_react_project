@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.static_Container {
+    width: 400px;
+    height: 262px;
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
+}
+
+.coursedetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px;
+}
+
+.course {
+    color: #131116;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.learnMore {
+    color: #131116;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.static_Cycle_image {
+    width: 140px;
+    height: 140px;
+}
+
+.staticGraph {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.static_Title {
+    color: #131116;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding:8px;
+}
+
+.static_color_coordination {
+    width: 9px;
+    height: 9px;
+    background: #593EF8;
+    border-radius: 50%;
+    border:1px solid #593EF8;
+}
+.staticGraph_Info{
+    display: flex;
+    align-items: center;
+    
+}
+.static_color_coordination_orange{
+    width: 9px;
+    height: 9px;
+    background: #FF9F29;
+    border-radius: 50%;
+    border:1px solid #FF9F29;
+}
+.static_color_coordination_yellow{
+    width: 9px;
+    height: 9px;
+    background: #FFCB8E;
+    border-radius: 50%;
+    border:1px solid #FFCB8E;
+}
+.static_color_coordination_blue{
+    width: 9px;
+    height: 9px;
+    background: #52BEFE;
+    border-radius: 50%;
+    border:1px solid #52BEFE;
+}

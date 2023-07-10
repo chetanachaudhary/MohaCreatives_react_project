@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.quick_transfer_Container {
+    border-radius: 16px;
+    background: #FFF;
+    box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
+    width: 350px;
+    height: 262px;
+    margin-left: 24px;
+}
+
+.quick_transfer_Title {
+    color: #131116;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding-left: 24px;
+    padding-top: 24px;
+}
+
+.avatar_Container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 19px;
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
+.Avatars {
+    width: 45px;
+    height: 45px;
+}
+
+.buttonAdd {
+    width: 45px;
+    height: 45px;
+    background: #593EF8;
+    border: 1px solid #593EF8;
+    border-radius: 50%;
+    color: #FFFFFF;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.amountInfo {
+    color: #242430;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 24px;
+}
+
+.transfer_amount_detail {
+    width: 338px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    margin-left: 8px;
+    margin-right: 5px;
+    border-radius: 32px;
+    background: #F0F2F5;
+    padding-left: 24px;
+    padding-right: 8px;
+}
+
+.transfer_button {
+    width: 147px;
+    height: 48px;
+    border-radius: 32px;
+    background: #593EF8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: 1px solid #593EF8;
+}
+
+.sent_Icon {
+    width: 24px;
+    height: 24px;
+}
+
+.transfer_value {
+    color: #727272;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

@@ -3,9 +3,11 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-section{
-    margin: 24px 24px 0 24px; 
+
+section {
+    margin: 24px 18px 0 24px;
 }
+
 .navbar {
     height: 80px;
     width: 100%;
@@ -17,10 +19,65 @@ section{
     box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
 }
 
+.dark-mode .navbar {
+    background: rgb(27, 25, 25);
+}
+
+.Light_Mode {
+    width: 85px;
+    height: 36px;
+    border-radius: 24px;
+    background: var(--white-white, #FFF);
+    border: 1px solid #fff;
+    box-shadow: 0px 1px 3px 0px rgba(96, 108, 128, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #593EF8;
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.Dark_Mode {
+    width: 85px;
+    height: 36px;
+    border-radius: 24px;
+    border: transparent;
+    box-shadow: 0px 1px 3px 0px rgba(96, 108, 128, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: var(--gray-290, #9AA4B5);
+    text-align: center;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.sunIcon {
+    width: 20px;
+    height: 20px;
+
+}
+
+.dark-mode .Dark_Mode {
+    background: var(--white-white, #FFF);
+    border: 1px solid #fff;
+}
+
+.dark-mode .Light_Mode {
+    border: transparent;
+    background: transparent;
+}
+
 .dashboardlogo {
     width: 48px;
     height: 48px;
-   margin-left: 16px;
+    margin-left: 16px;
 
 
 
@@ -69,6 +126,9 @@ section{
     height: 48px;
     border-radius: 32px;
     background: var(--gray-40, #F0F2F5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .notificationIcon {
@@ -103,7 +163,15 @@ section{
     width: 48px;
     height: 48px;
     margin-left: 16px;
+    margin-right: 16px;
 }
-.userInfo{
+
+.userInfo {
     display: flex;
+}
+
+.homeContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    justify-content: start;
 }

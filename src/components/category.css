@@ -10,9 +10,12 @@
     border-radius: 16px;
     background: #FFF;
     box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
-    margin: 24px 24px 32px 24px;
+    margin: 24px 24px 24px 5px;
     position: relative;
 
+}
+.dark-mode .homemenu_Container {
+    background: rgb(27, 25, 25);
 }
 
 .homeIcon {
@@ -91,7 +94,7 @@
     border-radius: 16px;
     background: #FAFAFA;
     position: absolute;
-    bottom: 0;
+    bottom: 15px;
 }
 
 .topup {

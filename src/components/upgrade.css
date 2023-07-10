@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.upgrade_container {
+    width: 210px;
+    height: 262px;
+    border-radius: 16px;
+    background: #131116;
+    margin-left: 22px;
+}
+
+.upgrade_background {
+    width: 210px;
+    height: 262px;
+}
+
+.upgrade_Details {
+    position: absolute;
+    bottom: 20px;
+    margin-left: 5px;
+}
+
+.upgrade_title {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 28px;
+    margin-left: 20px;
+    margin-bottom: 16px;
+}
+
+.upgrade_Info {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    width: 177px;
+    margin-left: 20px;
+}
+
+.upgradeButton {
+    width: 170px;
+    height: 40px;
+    border-radius: 32px;
+    background: #593EF8;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 64px;
+    margin-left: 20px;
+    margin-right: 10px;
+    border:1px solid #593EF8;
+}

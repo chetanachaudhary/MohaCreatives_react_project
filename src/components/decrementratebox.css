@@ -23,6 +23,9 @@
 
 
 }
+.dark-mode .expenditureContainer {
+    background: rgb(27, 25, 25);
+}
 
 .expenditureTitle {
     color: #262626;
