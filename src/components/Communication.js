@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './communication.css';
 import bluestaticGraph from './Images/static_graph_blue.png';
 import purplestaticGraph from './Images/Static_graph_purple.png';
@@ -7,17 +7,7 @@ import incrementGraph from './Images/IncreaseStatus.png';
 import monthChart from './Images/months_chart.png';
 
 export default function Communication() {
-    const [darkMode, setDarkMode] = useState(false);
-
-    const handleDarkMode = () => {
-        setDarkMode(true);
-    };
-
-    const handleLightMode = () => {
-        setDarkMode(false);
-    };
     return (
-        <div className={darkMode ? 'dark-mode' : 'light-mode'}>
             <div className='income_communication_Container'>
                 <div className='communication_Info'>
                     <div className='communicationTitle'>
@@ -55,6 +45,5 @@ export default function Communication() {
                 </div>
 
             </div>
-        </div>
   )
 }

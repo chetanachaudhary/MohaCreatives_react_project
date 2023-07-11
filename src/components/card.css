@@ -13,11 +13,21 @@
     margin-top: 24px;
     margin-left: 1.5rem;
 }
+.dark-mode .myCard_container{
+    background: #26273B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 .myCard_details {
     display: flex;
     justify-content: space-between;
     margin: 24px 24px 8px 24px;
+}
+.dark-mode .cardTitle{
+    color:#fff;
+}
+.dark-mode .card_learnMore{
+    color:#fff;
 }
 
 .cardTitle {
@@ -106,6 +116,7 @@
     position: absolute;
     top:23.5rem;
 }
+
 .balance_mycard_details_purpleCard{
     position: absolute;
     top: 26rem;

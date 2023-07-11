@@ -8,6 +8,12 @@ section {
     margin: 24px 18px 0 24px;
 }
 
+.dark-mode {
+    background: #1B1C30;
+    margin-top: 0;
+}
+
+
 .navbar {
     height: 80px;
     width: 100%;
@@ -20,8 +26,10 @@ section {
 }
 
 .dark-mode .navbar {
-    background: rgb(27, 25, 25);
+    background: #252842;
+    box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
 }
+
 
 .Light_Mode {
     width: 85px;
@@ -63,10 +71,27 @@ section {
     height: 20px;
 
 }
+.dark-mode .sunIcon{
+    display:none;
+}
+.sunsolidIcon{
+    display: none;
+}
+.dark-mode .Light_Mode{
+    color: #98A2B2;
+}
+.dark-mode .sunsolidIcon{
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-color: none;
+}
 
 .dark-mode .Dark_Mode {
-    background: var(--white-white, #FFF);
-    border: 1px solid #fff;
+    background: #1B1C30;
+    box-shadow: 0px 1px 3px 0px rgba(96, 108, 128, 0.05);
+    border: 1px solid #1B1C30;
+    color:#FFF;
 }
 
 .dark-mode .Light_Mode {
@@ -94,23 +119,34 @@ section {
     background: #F0F2F5;
 }
 
+.dark-mode .searchMenu {
+    background: #484958;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .iconCategory {
     display: flex;
     justify-content: space-evenly;
 }
 
 .search {
+    border: none;
+    background: transparent;
+    width: 490px;
+    height: 38px;
+    padding-left: 3px;
+}
+.search::placeholder{
     color: #727272;
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    border: none;
-    background: transparent;
-    width: 490px;
-    height: 38px;
-    padding-left: 3px;
+
+}
+.dark-mode .search::placeholder{
+    color:#FFF;
 }
 
 .searchMenu {
@@ -119,6 +155,9 @@ section {
 
 .fa-magnifying-glass {
     color: #727272;
+}
+.dark-mode .fa-magnifying-glass{
+    color:#fff;
 }
 
 .modes {
@@ -130,11 +169,25 @@ section {
     align-items: center;
     justify-content: center;
 }
+.dark-mode .modes{
+    background: #484958;
+}
 
 .notificationIcon {
     width: 48px;
     height: 48px;
 
+}
+.dark-mode .notificationIcon{
+    display: none;
+}
+.notificationIcondark{
+    display: none;
+}
+.dark-mode .notificationIcondark{
+    width: 50px;
+    height: 50px;
+    display: block;
 }
 
 .notification {
@@ -149,7 +202,9 @@ section {
     font-weight: 500;
     line-height: normal;
 }
-
+.dark-mode .avatarName{
+    color:#FFF;
+}
 .avater-version {
     color: #727272;
     font-family: Poppins;
@@ -157,6 +212,9 @@ section {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.dark-mode .avater-version{
+    color: #757684;
 }
 
 .avatar {

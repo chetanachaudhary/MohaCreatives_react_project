@@ -23,8 +23,10 @@
 
 
 }
+
 .dark-mode .expenditureContainer {
-    background: rgb(27, 25, 25);
+    background: #26273B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .expenditureTitle {
@@ -37,6 +39,9 @@
     padding-top: 24px;
 
 }
+.dark-mode .expenditureTitle{
+    color:#FFF;
+}
 
 .values {
     color: #262626;
@@ -46,6 +51,9 @@
     line-height: 32px;
     margin-top: 10px;
     margin-left: 24px;
+}
+.dark-mode .values{
+    color:#FFFFFF;
 }
 
 .downRate {

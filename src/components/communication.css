@@ -14,6 +14,11 @@
     margin-top: 23px;
 }
 
+.dark-mode .income_communication_Container {
+    background: #26273B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 .communication_Info {
     display: flex;
     justify-content: space-between;
@@ -36,6 +41,10 @@
 
 }
 
+.dark-mode .incomeTitle {
+    color: #F6FDFF;
+}
+
 .communicationTitle_details {
     color: rgba(136, 136, 136, 0.56);
     font-size: 16px;
@@ -43,6 +52,10 @@
     font-weight: 400;
     line-height: 20px;
     margin-top: 24px;
+}
+
+.dark-mode .communicationTitle_details {
+    color: rgba(177, 169, 169, 0.56);
 }
 
 .communication_learnMore {
@@ -53,6 +66,9 @@
     line-height: 20px;
     letter-spacing: 1px;
     margin-right: 24px;
+}
+.dark-mode .communication_learnMore{
+    color:#F6FDFF;
 }
 
 .purblebox {
@@ -93,6 +109,12 @@
     margin-left: 10px;
 }
 
+.dark-mode .accountNumber {
+    background: #3D3E53;
+    border: 1px solid #3D3E53;
+    color: #D2F1F9;
+}
+
 .Graph_Info {
     height: 235px;
     object-fit: cover;
@@ -102,14 +124,14 @@
 }
 
 .blue_static_graph {
-    width: 354px;
+    width: 358px;
     height: 199px;
     position: absolute;
     top: 20.6rem;
 }
 
 .purple_static_graph {
-    width: 354px;
+    width: 358px;
     height: 180px;
     position: absolute;
     top: 20.5rem;
@@ -122,13 +144,14 @@
 }
 
 .increaseStatus_graph {
-    width: 199px;
+    width: 200px;
     height: 175px;
     position: absolute;
-    right: 4.4rem;
+    right: 4rem;
     top: 23rem;
 }
-.month_chart{
-    width: 358px;
+
+.month_chart {
+    width: 360px;
     height: 16px;
 }

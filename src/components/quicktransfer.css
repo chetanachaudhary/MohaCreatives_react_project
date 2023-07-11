@@ -12,6 +12,10 @@
     height: 262px;
     margin-left: 24px;
 }
+.dark-mode .quick_transfer_Container{
+    background: #26273B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 .quick_transfer_Title {
     color: #131116;
@@ -21,6 +25,9 @@
     line-height: normal;
     padding-left: 24px;
     padding-top: 24px;
+}
+.dark-mode .quick_transfer_Title{
+    color:#FFF;
 }
 
 .avatar_Container {
@@ -55,15 +62,18 @@
     line-height: normal;
     margin: 24px;
 }
+.dark-mode .amountInfo{
+    color: #757684;
+}
 
 .transfer_amount_detail {
-    width: 338px;
+    width: 330px;
     height: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
-    margin-left: 8px;
+    margin-left: 10px;
     margin-right: 5px;
     border-radius: 32px;
     background: #F0F2F5;

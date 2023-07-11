@@ -22,9 +22,9 @@ function App() {
         <Communication /> */}
       </div>
       <div className='Static'>
-        <Static />
+        {/* <Static />
         <Quicktransfer/>
-        <Upgrade/>
+        <Upgrade/> */}
        
       </div>
 

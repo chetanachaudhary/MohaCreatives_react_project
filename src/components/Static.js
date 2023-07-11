@@ -1,6 +1,7 @@
 import React from 'react';
 import './static.css';
 import staticCycle from './Images/staticCycle.png';
+import staticdarkmode from './Images/static_darkmode.png';
 
 export default function Static() {
     return (
@@ -12,6 +13,8 @@ export default function Static() {
             <div className='staticGraph'>
                 <div>
                     <img src={staticCycle} alt="" className='static_Cycle_image' />
+                    
+                    <img src={staticdarkmode} alt="" className='static_Cycle_image_darkmode' />
                 </div>
                 <div className='cycle_Details'>
                     <div className='staticGraph_Info'>

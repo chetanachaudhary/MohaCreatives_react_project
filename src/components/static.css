@@ -11,6 +11,11 @@
     background: #FFF;
     box-shadow: 0px 16px 60px 0px rgba(0, 0, 0, 0.03);
 }
+.dark-mode .static_Container{
+    background: #26273B;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 
 .coursedetails {
     display: flex;
@@ -26,6 +31,9 @@
     font-weight: 500;
     line-height: normal;
 }
+.dark-mode .course{
+    color:#FFF;
+}
 
 .learnMore {
     color: #131116;
@@ -34,10 +42,26 @@
     font-weight: 500;
     line-height: normal;
 }
+.dark-mode .learnMore{
+    color:#FFF;
+
+}
 
 .static_Cycle_image {
     width: 140px;
     height: 140px;
+    display: block;
+}
+.dark-mode .static_Cycle_image{
+    display: none;
+}
+.dark-mode .static_Cycle_image_darkmode{
+    width: 140px;
+    height: 140px;
+    display: block;
+}
+.static_Cycle_image_darkmode{
+    display:none;
 }
 
 .staticGraph {
@@ -52,6 +76,9 @@
     font-weight: 400;
     line-height: normal;
     padding:8px;
+}
+.dark-mode .static_Title{
+    color:#FFF;
 }
 
 .static_color_coordination {
