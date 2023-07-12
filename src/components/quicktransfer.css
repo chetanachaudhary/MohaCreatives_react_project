@@ -80,6 +80,10 @@
     padding-left: 24px;
     padding-right: 8px;
 }
+.dark-mode .transfer_amount_detail{
+    background: #484958;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
 
 .transfer_button {
     width: 147px;
@@ -95,6 +99,7 @@
     font-weight: 500;
     line-height: normal;
     border: 1px solid #593EF8;
+    text-decoration: none;
 }
 
 .sent_Icon {
@@ -108,4 +113,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.dark-mode .transfer_value{
+    color:#FFF;
 }

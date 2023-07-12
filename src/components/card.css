@@ -62,7 +62,7 @@
 }
 
 .cardImage {
-    width: 300px;
+    width: 305px;
     height: 220px;
     position: relative;
 
@@ -111,7 +111,7 @@
     line-height: normal;
 }
 .cardImage_purple{
-    width: 300px;
+    width: 305px;
     height: 220px;
     position: absolute;
     top:23.5rem;

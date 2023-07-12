@@ -6,6 +6,8 @@ import activeBid from './Images/activebidIcon.png';
 import portofolioIcon from './Images/userIcon.png';
 import favoriteIcon from './Images/favoriteIcon.png';
 import balanceGraph from './Images/graph.png';
+import { Link } from 'react-router-dom';
+import Quicktransfer from './Quicktransfer';
 
 export default function Category() {
     return (
@@ -39,7 +41,8 @@ export default function Category() {
                     <div className='balanceGraph'>
                     <img src={balanceGraph} className="balanceChartGraph" alt="" />
                     </div>
-                    <button type='submit' className='topup_button'>Top up blance</button>
+                    <Link to="/Quicktransfer">
+                    <button type='submit' className='topup_button'>Top up blance</button></Link>
                 </div>
             </div>
         </div>
